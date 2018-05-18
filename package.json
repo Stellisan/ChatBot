@@ -1,0 +1,19 @@
+{
+  "name": "chatr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stellisan/ChatBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stellisan/ChatBot/issues"
+  },
+  "homepage": "https://github.com/Stellisan/ChatBot#readme"
+}
