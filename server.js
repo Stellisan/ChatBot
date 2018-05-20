@@ -19,9 +19,9 @@ app.get('/', function(req, res) {
 	res.json({ fulfillmentText: 'This is a sample response from your webhook!' });
 });
 
-app.post('/', function(req, res)){
+app.post('/', function(req, res){
 	res.json({ fulfillmentText: 'This is a sample response from your webhook!' });
-}
+});
 app.listen(port, function() {
 	console.log('Our app is running on http://localhost:' + port);
 });
