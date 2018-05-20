@@ -22,3 +22,7 @@ app.get('/', function(req, res) {
 app.listen(port, function() {
 	console.log('Our app is running on http://localhost:' + port);
 });
+
+exports.helloHttp = function helloHttp (request, response) {
+	response.json({ fulfillmentText: 'This is a sample response from your webhook!' });
+  };
